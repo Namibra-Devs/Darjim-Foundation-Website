@@ -116,19 +116,99 @@ nav ul li.active a {
 
 .mission {
   margin-top: 100px;
-  
+}
+.mission h1 {
+  font-size: 18px;
+  color: #003e9d;
+}
+.mission-row{
+  margin-right: 50px;
+}
+
+.heading {
+  font-size: 40px;
 }
 
 .mission-row img {
-  width: 250px;
-  border-radius: 10px;
+  width: 350px;
+  height: 240px;
+  border-radius: 6px;
 }
 
-.mission-row p{
-  
+.mission-row span {
+  font-size: 18px;
 }
-.missions-list{
+.mission-row h1 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.mission-row p {
+  font-size: 18px;
+  color: #626262;
+}
+.missions-list {
   margin-top: 50px;
+ 
 
   display: flex;
+}
+
+footer{
+  background: #003e9d;
+ 
+  padding: 50px 60px;
+  color: #fff;
+  margin-top: 150px;
+ 
+}
+
+.columns{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 40px;
+}
+
+.foundation h1{
+  margin-bottom: 25px;
+  
+
+}
+
+.foundation p {
+  line-height: 23px;
+}
+
+.links h1{
+  margin-bottom: px;
+}
+
+.links ul{
+  list-style: none;
+  margin-top: x;
+}
+
+.links ul li{
+  margin-top: 20px;
+  
+}
+
+.links ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact h1{
+  
+}
+
+.contact {
+  
+}
+
+.contact p{
+  margin-top: 25px;
+
 }
