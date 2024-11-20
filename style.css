@@ -235,42 +235,38 @@ nav ul li.active a {
 }
 .workplan-text h1 {
   font-size: 18px;
-
- 
 }
 
 .workplan-row img {
   width: 475.92px;
 }
 
-.learn-more{
+.learn-more {
   margin-top: 30px;
 }
 
-.partnership-row{
+.partnership-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 70px;
-
 }
 
-.partnership-row h1{
+.partnership-row h1 {
   font-size: 40px;
   color: #003e9d;
   margin-bottom: 15px;
-
 }
-.partnership-row p{
+.partnership-row p {
   font-size: 20px;
   color: #626262;
 }
 
-.partnership-text{
+.partnership-text {
   margin-left: 330px;
 }
 
-.partner-btn{
+.partner-btn {
   border: 1px solid #003e9d;
   outline: 0;
   background: transparent;
@@ -278,38 +274,32 @@ nav ul li.active a {
   padding: 10px 20px;
   cursor: pointer;
   margin-bottom: 30px;
-  
 }
 
-.partner-btn:hover{
+.partner-btn:hover {
   background: #003e9d;
   color: #fff;
-
 }
-.gallery{
+.gallery {
   margin-top: 150px;
 }
 
-.gallery-heading{
+.gallery-heading {
   font-size: 40px;
   color: #454545;
 }
 
-
-.gallery h1{
+.gallery h1 {
   font-size: 18px;
   color: #454545;
-  
-
 }
 
-.gallery span{
+.gallery span {
   font-size: 18px;
   color: #454545;
-
 }
 
-.pictures-btn{
+.pictures-btn {
   border: 1px solid #003e9d;
   outline: 0;
   background: transparent;
@@ -322,66 +312,121 @@ nav ul li.active a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-
 }
 
-.pictures-btn:hover{
+.pictures-btn:hover {
   background: #003e9d;
   color: #fff;
-
-
 }
 
-
-footer{
+footer {
   background: #003e9d;
- 
+
   padding: 50px 60px;
   color: #fff;
   margin-top: 150px;
- 
 }
 
-.columns{
+.columns {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 30px 40px;
 }
 
-.foundation h1{
+.foundation h1 {
   margin-bottom: 25px;
-  
-
 }
 
 .foundation p {
   line-height: 23px;
 }
 
-.links h1{
+.links h1 {
   margin-bottom: px;
 }
 
-.links ul{
+.links ul {
   list-style: none;
   margin-top: x;
 }
 
-.links ul li{
+.links ul li {
   margin-top: 20px;
-  
 }
 
-.links ul li a{
+.links ul li a {
   text-decoration: none;
   color: #fff;
 }
 
-
-
-.contact p{
+.contact p {
   margin-top: 25px;
+}
 
+.our-strategies-img {
+  width: 616px;
+  height: 499.17px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.achievement-img {
+  width: 100%;
+  height: auto;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.achieve {
+  margin-top: 20px;
+}
+
+.list-achivements {
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.achievement-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.achievement-row img {
+  width: 616px;
+  height: 499.17px;
+}
+
+.achievement-text {
+  margin-top: -115px;
+}
+
+.achievement-text ul li {
+  padding-top: 20px;
+  list-style-type: decimal;
+  font-size: 20px;
+  color: #626262;
+}
+
+.achievement-text h1 {
+  font-size: 35px;
+  margin: 8px;
+  color: #003e9d;
+}
+
+.partner-image {
+  width: 475.92px;
+  height: 300px;
 }
