@@ -474,3 +474,27 @@ footer {
 .members-table tr:hover {
   background-color: #f1f1f1;
 }
+
+.supporters{
+  margin-top: 150px;
+}
+
+.donor{
+  display: flex;
+  margin-top: 150px;
+
+}
+
+.donor-text{
+  margin-left: 50px;
+}
+
+.donor-text  h1{
+  font-size: 40px;
+  color: #003e9d;
+  margin-bottom: 15px;
+
+}
+.support-img{
+  opacity: -80%x;
+}
