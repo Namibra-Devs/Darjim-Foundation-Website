@@ -303,7 +303,7 @@ nav ul li.active a {
   border: 1px solid #003e9d;
   outline: 0;
   background: transparent;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 10px 20px;
   cursor: pointer;
   margin-top: 50px;
@@ -457,7 +457,6 @@ footer {
 
 .members-table th,
 .members-table td {
-  
   padding: 8px;
   text-align: left;
 }
@@ -475,26 +474,130 @@ footer {
   background-color: #f1f1f1;
 }
 
-.supporters{
+.supporters {
   margin-top: 150px;
 }
 
-.donor{
+.donor {
   display: flex;
   margin-top: 150px;
-
 }
 
-.donor-text{
+.donor-text {
   margin-left: 50px;
 }
 
-.donor-text  h1{
+.donor-text h1 {
   font-size: 40px;
   color: #003e9d;
   margin-bottom: 15px;
+}
+.support-img {
+  opacity: -80%x;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-contact {
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
+}
+.our-contact img {
+  margin-left: 150px;
+}
+
+.left-contact p {
+  font-size: 15px;
+  color: #626262;
+  margin-top: 8px;
+}
+.left-contact h1 {
+  font-size: 40px;
+  color: #003e9d;
+}
+.our-contact-heading {
+  margin-top: -15px;
+}
+
+form {
+  margin-top: 20px;
+}
+label {
+}
+.form-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.form-column input {
+  border: 1px solid #626262;
+  outline: none;
+  width: 500px;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.form-column label {
+  margin-bottom: 10px;
+}
+
+.accept-terms {
+  display: flex;
+  margin-top: 10px;
+}
+.accept-terms p {
+  margin-left: 15px;
+
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.message-input input {
+  height: 150px;
+}
+.submit-btn {
+  margin-top: 8px;
+  border: 1px solid #003e9d;
+  outline: 0;
+  color: #003e9d;
+  background: transparent;
+  border-radius: 15px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.submit-btn:hover{
+  background: #003e9d;
+  color: #fff;
 
 }
-.support-img{
-  opacity: -80%x;
+
+.info {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-row p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #454545;
+}
+
+.info-row h1 {
+  margin-bottom: 10px;
+  color: #454545;
+  font-size: 20px;
+}
+.info .info-row img{
+  font-size: 10px;
+  
+}
+.info-row a {
+  color: #454545;
 }
