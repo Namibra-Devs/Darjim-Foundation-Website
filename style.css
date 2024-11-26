@@ -761,3 +761,26 @@ form {
 .food img{
   margin-top: 200px;
 }
+
+.activities-heading{
+  color: #454545;
+  margin-top: 90px;
+}
+
+.quarters{
+  margin-top: 50px;
+}
+
+.quarter-column h1{
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color: #003e9d;
+}
+
+.quarter-column ul {
+  list-style: none;
+}
+
+.quarter-column ul li{
+  margin-bottom: 20px;
+}
