@@ -784,3 +784,52 @@ form {
 .quarter-column ul li{
   margin-bottom: 20px;
 }
+
+.collaboration-text{
+  margin-top: 50px;
+}
+
+.collaboration-text h1{
+  color: #003e9d;
+  margin-bottom: 15px;
+}
+
+.collaboration-col p{
+  color: #454545;
+  margin-bottom: 30px;
+}
+
+.partners h1{
+  color: #003e9d;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-top: 150px;
+}
+.row-img{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 50px;
+  gap: 0 50px;
+}
+.row-img img{
+  width: 500px;
+}
+.row-img p{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #454545;
+}
+.gallery-heading{
+  text-align: center;
+  margin-top: 100px;
+}
+.gallery-heading h1{
+  color: #003e9d;
+  font-size: 40px;
+}
+.gallery-heading p{
+  color: #454545;
+  font-size: 20px;
+}
