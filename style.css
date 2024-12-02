@@ -10,7 +10,6 @@
   min-height: 100vh;
   max-width: 100%;
   padding: 30px;
-  
 }
 
 nav {
@@ -96,10 +95,9 @@ nav ul li.active a {
 }
 .hero-img {
   width: 80% !important; /* Adjust percentage as needed */
-    max-width: 100%;
-    height: auto;
-    display: block;
-    
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .volunteer-btn {
@@ -304,6 +302,7 @@ nav ul li.active a {
 .gallery-heading {
   font-size: 40px;
   color: #454545;
+
 }
 
 .gallery h1 {
@@ -836,17 +835,32 @@ form {
   font-size: 20px;
   color: #454545;
 }
+.gallery {
+  margin-top: 150px;
+}
+
 .gallery-heading {
-  text-align: center;
-  margin-top: 100px;
-}
-.gallery-heading h1 {
-  color: #003e9d;
   font-size: 40px;
-}
-.gallery-heading p {
   color: #454545;
-  font-size: 20px;
+}
+
+.gallery h1 {
+  font-size: 18px;
+  color: #454545;
+}
+
+.gallery span {
+  font-size: 18px;
+  color: #454545;
+}
+.principles-list {
+  display: flex;
+  gap: 50px;
+}
+.principles-column p {
+  margin: 0;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 /* Mobile styles (For responsiveness) */
@@ -966,10 +980,12 @@ form {
   }
   .workplan-row {
     display: block;
+    margin-left: -40px;
   }
   .workplan-row img {
     width: 343px;
     height: 343.32px;
+    margin-left: 40px; /* Add space on the left for smaller screens */
   }
   .workplan-text p {
     font-size: 12px;
@@ -983,5 +999,45 @@ form {
     border-radius: 21px;
     width: 114px;
     height: 40px;
+  }
+  .partnership-row {
+    display: block;
+    margin-left: 0px;
+  }
+
+  .principles-list {
+    display: flex;
+  }
+
+  .principles-column p {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .col-2 {
+    margin-left: -250px;
+  }
+  .partnership-text {
+    margin-left: 7px;
+  }
+
+  .partnership-text h1 {
+    font-size: 15px;
+  }
+
+  .partnership-text p {
+    font-size: 10px;
+  }
+  .partnership-row img {
+    width: 341.29px;
+    height: 202.08px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .partner-btn {
+    width: 143px;
+    height: 40px;
+    font-size: 10px;
   }
 }
