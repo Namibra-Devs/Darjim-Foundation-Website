@@ -8,7 +8,9 @@
 .container {
   width: 100%;
   min-height: 100vh;
+  max-width: 100%;
   padding: 30px;
+  
 }
 
 nav {
@@ -93,8 +95,11 @@ nav ul li.active a {
   margin-bottom: 15px;
 }
 .hero-img {
-  width: 500px;
-  margin-right: 3000px;
+  width: 80% !important; /* Adjust percentage as needed */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
 }
 
 .volunteer-btn {
@@ -218,7 +223,7 @@ nav ul li.active a {
 .workplan-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+
   margin-top: 70px;
 }
 
@@ -229,8 +234,8 @@ nav ul li.active a {
 
 .workplan-text {
   margin-top: 42px;
-  margin-right: 270px;
   margin-bottom: 30px;
+  margin-left: 40px;
 }
 
 .workplan-text p {
@@ -956,28 +961,27 @@ form {
     font-size: 15px;
   }
 
-  .our-plan span{
+  .our-plan span {
     font-size: 10px;
   }
-  .workplan-row{
+  .workplan-row {
     display: block;
   }
-  .workplan-row img{
+  .workplan-row img {
     width: 343px;
     height: 343.32px;
   }
-  .workplan-text p{
+  .workplan-text p {
     font-size: 12px;
     width: 296.05px;
   }
-  .workplan-text ul li{
+  .workplan-text ul li {
     font-size: 8px;
   }
-  .learn-more{
+  .learn-more {
     padding: 9px 14px;
     border-radius: 21px;
     width: 114px;
     height: 40px;
   }
-  
 }
