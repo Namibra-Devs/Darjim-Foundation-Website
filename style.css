@@ -299,11 +299,16 @@ nav ul li.active a {
   margin-top: 150px;
 }
 
+/* Mobile styles (For responsiveness)
+
 .gallery-heading {
   font-size: 40px;
   color: #454545;
 
 }
+
+*/
+
 
 .gallery h1 {
   font-size: 18px;
@@ -1040,4 +1045,39 @@ form {
     height: 40px;
     font-size: 10px;
   }
+   .gallery-heading{
+    font-size: 15px;
+   
+  }
+  .gallery h1{
+    font-size: 10px;
+  }
+
+  .gallery span{
+    font-size: 10px;
+  }
+  .pictures-btn{
+    margin-left: -100px;
+  }
+
+  footer{
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    
+    
+
+  }
+  .footer-link{
+    margin-bottom: 50px;
+
+  }
+
+  .columns {
+    display: block;
+    width: 100%;
+   
+    
+  }
+  
 }
