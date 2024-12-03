@@ -50,6 +50,7 @@ nav ul li.active a {
   display: none;
   font-size: 24px;
   cursor: pointer;
+  text-align: right;
 }
 
 .contact-button {
@@ -343,7 +344,7 @@ nav ul li.active a {
 footer {
   background: #003e9d;
 
-  padding: 50px 60px;
+  padding: 50px 10px;
   color: #fff;
   margin-top: 150px;
 }
@@ -874,7 +875,6 @@ form {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-   
   }
 
   .column {
@@ -883,8 +883,32 @@ form {
   }
 
   nav {
+    border-bottom: 1px solid #626262;
+    padding-bottom: 20px;
+  }
+
+  nav ul {
     display: none;
   }
+
+  .logo {
+    width: 67.36px;
+  }
+
+  .menu-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-links ul li a {
+    list-style: none;
+  }
+
   .hero-text h1 {
     font-size: 24px;
     width: 299px;
@@ -1074,19 +1098,17 @@ form {
     display: block;
     width: 100%;
   }
-  .footer-contact{
-   font-size: 12px;
-  }
-
-  .footer-quick-links ul li{
+  .footer-contact {
     font-size: 12px;
-
   }
-  .footer-link h1{
+
+  .footer-quick-links ul li {
+    font-size: 12px;
+  }
+  .footer-link h1 {
     font-size: 25px;
   }
-  .footer-greeting p{
+  .footer-greeting p {
     font-size: 10px;
-
   }
 }
