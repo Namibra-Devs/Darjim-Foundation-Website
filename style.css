@@ -869,6 +869,12 @@ form {
   margin-bottom: 20px;
 }
 
+.menu{
+  display: none;
+
+
+}
+
 /* Mobile styles (For responsiveness) */
 
 @media (max-width: 768px) {
@@ -894,7 +900,7 @@ form {
   }
 
   .logo {
-    width: 67.36px;
+    width: 80px;
   }
 
   .menu-bar {
@@ -1107,6 +1113,7 @@ form {
   }
   .footer-contact {
     font-size: 15px;
+    color: #fff;
   }
 
   .footer-quick-links ul li {
@@ -1119,4 +1126,67 @@ form {
     font-size: 15px;
     margin-right: 10px;
   }
+
+  .menu-logo{
+    width: 13.36px;
+    height: 143.18px;
+  }
+
+  .link-menu{
+    list-style: none;
+    margin: 20px 0;
+  }
+
+  .link-menu li {
+    margin: 10px 0;
+}
+
+.link-menu a {
+  text-decoration: none;
+  color: #454545;
+  font-size: 18px;
+
+}
+
+.menu{
+  margin-left: 40px;
+  margin-top: 50px;
+  
+}
+
+.menu-contact{
+  width: 110px;
+  height: 40px;
+  font-size: 15px;
+}
+.menu-volunteer{
+  width: 110px;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 15px;
+
+}
+.logo-menu img{
+  width: 100px;
+}
+
+.menu.open {
+  display: block; 
+}
+
+
+
+
+
+
+
+
+
+ 
+
+    
+
+
+
+
 }
