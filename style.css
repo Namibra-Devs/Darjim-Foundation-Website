@@ -414,7 +414,13 @@ footer {
 .achieve {
   margin-top: 20px;
 }
+.achieve h1{
+  color: #626262;
+}
 
+.achieve  p{
+  color: #626262;
+}
 .list-achivements {
   margin-top: 40px;
   margin-left: 15px;
@@ -1102,6 +1108,7 @@ form {
     overflow: hidden;
     padding: 0;
     max-width: 800px;
+    margin-left: -20px;
   }
   .footer-link {
     margin-bottom: 50px;
@@ -1174,10 +1181,58 @@ form {
   display: block; 
 }
 
+.achieve h1{
+  font-size: 21px;
+
+}
+ 
+.achieve  p{
+  font-size: 15px;
+  margin-left: -px;
+}
+
+.list-achivements{
+  margin-left: -7px;
 
 
+}
+
+.achievement-row {
+  flex-direction: column-reverse;
+ 
+
+}
+
+.achievement-row img{
+  width: 335px;
+  height: 343.32px;
+  border-radius: 5px;
+  margin-bottom: 150px;
+  
+}
+.achievement-text h1{
+  font-size: 21px;
+
+  
+}
+.achievement-text ul {
+ 
 
 
+}
+.achievement-text  ul li {
+  font-size: 17px !important;
+  margin-left: 30px;
+  
+}
+.achievement-text ul li{
+  font-size: 14px;
+}
+
+.income{
+  flex-direction: column;
+
+}
 
 
 
