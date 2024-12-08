@@ -414,11 +414,11 @@ footer {
 .achieve {
   margin-top: 20px;
 }
-.achieve h1{
+.achieve h1 {
   color: #626262;
 }
 
-.achieve  p{
+.achieve p {
   color: #626262;
 }
 .list-achivements {
@@ -875,10 +875,8 @@ form {
   margin-bottom: 20px;
 }
 
-.menu{
+.menu {
   display: none;
-
-
 }
 
 /* Mobile styles (For responsiveness) */
@@ -964,10 +962,9 @@ form {
     width: 296.05px;
     line-height: 11.5px;
   }
-  
+
   .executive-heading {
     font-size: 33px;
-   
   }
   .message-text h1 {
     font-size: 21px;
@@ -1032,7 +1029,7 @@ form {
   .workplan-row img {
     width: 343px;
     height: 343.32px;
-    margin-left: 40px;  
+    margin-left: 40px;
   }
   .workplan-text p {
     font-size: 17px;
@@ -1054,14 +1051,12 @@ form {
 
   .principles-list {
     display: flex;
-   
   }
 
   .principles-column p {
     margin: 0;
     text-align: left;
     margin-bottom: 20px;
-    
   }
   .col-2 {
     margin-left: -200px;
@@ -1134,114 +1129,134 @@ form {
     margin-right: 10px;
   }
 
-  .menu-logo{
+  .menu-logo {
     width: 13.36px;
     height: 143.18px;
   }
 
-  .link-menu{
+  .link-menu {
     list-style: none;
     margin: 20px 0;
   }
 
   .link-menu li {
     margin: 10px 0;
-}
+  }
 
-.link-menu a {
-  text-decoration: none;
-  color: #454545;
-  font-size: 18px;
+  .link-menu a {
+    text-decoration: none;
+    color: #454545;
+    font-size: 18px;
+  }
 
-}
+  .menu {
+    margin-left: 40px;
+    margin-top: 50px;
+  }
 
-.menu{
-  margin-left: 40px;
-  margin-top: 50px;
-  
-}
+  .menu-contact {
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .menu-volunteer {
+    width: 110px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .logo-menu img {
+    width: 100px;
+  }
 
-.menu-contact{
-  width: 110px;
-  height: 40px;
-  font-size: 15px;
-}
-.menu-volunteer{
-  width: 110px;
-  height: 40px;
-  margin-bottom: 10px;
-  font-size: 15px;
+  .menu.open {
+    display: block;
+  }
 
-}
-.logo-menu img{
-  width: 100px;
-}
+  .achieve h1 {
+    font-size: 21px;
+  }
 
-.menu.open {
-  display: block; 
-}
+  .achieve p {
+    font-size: 15px;
+    margin-left: -px;
+  }
 
-.achieve h1{
-  font-size: 21px;
+  .list-achivements {
+    margin-left: -7px;
+  }
 
-}
- 
-.achieve  p{
-  font-size: 15px;
-  margin-left: -px;
-}
+  .achievement-row {
+    flex-direction: column-reverse;
+  }
 
-.list-achivements{
-  margin-left: -7px;
+  .achievement-row img {
+    width: 335px;
+    height: 343.32px;
+    border-radius: 5px;
+    margin-bottom: 150px;
+  }
+  .achievement-text h1 {
+    font-size: 21px;
+  }
+
+  .achievement-text ul li {
+    font-size: 17px !important;
+    margin-left: 30px;
+  }
+  .achievement-text ul li {
+    font-size: 14px;
+  }
+
+  .income {
+    flex-direction: column;
+  }
+  .director-img {
+    width: 335px;
+    height: 343.32px;
+    border-radius: 5px;
+  }
+  .structure{
+    flex-direction: column;
+  }
+  .director-list{
+    margin-top: -80px;
+  }
+  .structure{
+    margin-top: -2px;
+  }
+  .donor{
+    flex-direction: column;
+    margin-top: 30px;
+
+  }
+  .supporters{
+    margin-top: 30px;
+  }
+  .donor-column{
+    margin-top: 10px;
+  }
+  .donor-column img{
+    margin-left: 20px;
+
+  }
+  .donor-text{
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+  }
+  .donor-text h1{
+    margin-bottom: 30px;
+  }
+  .donor-text p{
+    margin-bottom: 30px;
+  }
+  .message-text{
+    margin-bottom: 30px;
+  }
+  .message-text h1{
+    margin-bottom: 30px;
 
 
-}
-
-.achievement-row {
-  flex-direction: column-reverse;
- 
-
-}
-
-.achievement-row img{
-  width: 335px;
-  height: 343.32px;
-  border-radius: 5px;
-  margin-bottom: 150px;
-  
-}
-.achievement-text h1{
-  font-size: 21px;
-
-  
-}
-.achievement-text ul {
- 
-
-
-}
-.achievement-text  ul li {
-  font-size: 17px !important;
-  margin-left: 30px;
-  
-}
-.achievement-text ul li{
-  font-size: 14px;
-}
-
-.income{
-  flex-direction: column;
-
-}
-
-
-
-
- 
-
-    
-
-
-
-
+  }
 }
