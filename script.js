@@ -5,3 +5,4 @@ function toggleMenu() {
     menu.classList.toggle('open'); // Toggle the "open" class
   }
   
+  
