@@ -16,6 +16,15 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  background-color: white; 
+  z-index: 1000; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  padding: 10px 20px;
+  margin-bottom: px;
 }
 
 nav ul {
@@ -76,6 +85,7 @@ nav ul li.active a {
   justify-content: space-between;
   padding: 0 20px;
   flex: 1;
+  margin-top: 200px;
 }
 
 .hero-text h1 {
@@ -401,6 +411,8 @@ footer {
 .achievement-img {
   width: 100%;
   height: auto;
+  margin-top: 100px;
+
 }
 .text-overlay {
   position: absolute;
@@ -536,7 +548,7 @@ form {
   margin-top: 150px;
 }
 .our-contact img {
-  margin-left: 150px;
+  margin-left: 80px;
 }
 
 .left-contact p {
@@ -1151,7 +1163,7 @@ form {
 
   .menu {
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 100px;
   }
 
   .menu-contact {
@@ -1167,6 +1179,7 @@ form {
   }
   .logo-menu img {
     width: 100px;
+    display: none;
   }
 
   .menu.open {
@@ -1258,5 +1271,25 @@ form {
     margin-bottom: 30px;
 
 
+  }
+  .volunteers-row{
+    flex-direction: column-reverse;
+  }
+  .volunteers-row img{
+    margin-bottom: 250px;
+  }
+  .text-overlay{
+    margin-top: 40px;
+  }
+  .row-img{
+    flex-direction: column-reverse;
+    margin-left: 4px;
+    gap: 30px;
+    
+  }
+
+  .row-img img{
+    width: 335px;
+  
   }
 }
