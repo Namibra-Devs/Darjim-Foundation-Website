@@ -836,6 +836,10 @@ form {
   margin-top: 50px;
 }
 
+.phone-contact a{
+  text-decoration: none;
+}
+
 .goal-outline h1 {
   color: #003e9d;
   text-decoration: underline;
