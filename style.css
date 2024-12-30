@@ -955,6 +955,32 @@ form {
   display: none;
 }
 
+.gallery-images-heading{
+  margin-top: 170px;
+  text-align: center;
+}
+.gallery-images-heading h1{
+  font-size: 48px;
+  color: #003e9d;
+}
+.gallery-heading p{
+  font-size: 18px;
+}
+
+.gallery-vol{
+  margin-left: 30px;
+}
+
+.image-11{
+  width: 380px;
+  height: 416px;
+}
+
+.image-8{
+  width: 380px;
+  height: 416px;
+
+}
 /* Mobile styles (For responsiveness) */
 
 @media (max-width: 768px) {
@@ -1439,5 +1465,11 @@ form {
  
   
     margin-left: -150px;
+  }
+  .gal{
+    margin-top: 70px;
+  }
+  .gallery-footer{
+    margin-top: -100px;
   }
 }
