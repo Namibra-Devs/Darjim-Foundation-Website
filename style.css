@@ -981,6 +981,14 @@ form {
   height: 416px;
 
 }
+.gea-img img{
+  width: 300px;
+  margin-left: 110px;
+}
+
+.gea-img p{
+  margin-left: 100px;
+}
 /* Mobile styles (For responsiveness) */
 
 @media (max-width: 768px) {
