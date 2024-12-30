@@ -1372,4 +1372,72 @@ form {
     width: 335px;
   
   }
+
+  .our-contact{
+    flex-direction: column;
+  }
+
+  .contact-img img{
+    width: 335px;
+    height: 335px;
+    margin-left: 8px;
+    margin-top: 20px;
+  }
+  .left-contact p{
+    font-size: 12px;
+
+  }
+  .left-contact h1{
+    font-size: 30px;
+  }
+  .our-contact-heading{
+    font-size: 15px;
+  }
+  .form-column label{
+    font-size: 15px;
+    
+  }
+  .form-column input{
+    width: 335px;
+    height: 48px;
+
+  } 
+
+  .message-input input{
+    width: 335px;
+    height: 180px;
+  }
+  .accept-terms p{
+    font-size: 12px;
+  }
+  .submit-btn{
+    width: 82px;
+    height: 35px;
+    padding: 9px 14px;
+    background: #fff;
+    border: 1px solid #003e9d;
+  }
+  .info{
+    flex-direction: column;
+    margin-left: -70px;
+    gap: 50px;
+  }
+
+  .website{
+    margin-left: -30px;
+
+
+  }
+
+  .maps{
+    flex-direction: column;
+    margin-top: -100px;
+  }
+
+  .map-img img{
+    width: 335px;
+ 
+  
+    margin-left: -150px;
+  }
 }
