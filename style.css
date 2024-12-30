@@ -1480,4 +1480,13 @@ form {
   .gallery-footer{
     margin-top: -100px;
   }
+
+  .gea-img img{
+    margin-left: -10px;
+    width: -80%;
+  }
+
+  .gea-img p{
+    margin-left: -10px;
+  }
 }
